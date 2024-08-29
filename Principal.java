@@ -10,13 +10,13 @@ public class Main {
     public static void main(String[] args) {
         try {
             // Construção da URI com query parameters
-            String uri = "Teste";
+            String uri = "https://www.testando.com.br";
 
             // Criação do cliente HTTP
             HttpClient client = HttpClient.newHttpClient();
 
             // Construção do corpo da requisição
-            String jsonBody = "{ \"username\": \"73612754009\" }";
+            String jsonBody = "{ \"username\": \"65437\" }";
 
             // Construção da requisição HTTP DELETE
             HttpRequest request = HttpRequest.newBuilder()
