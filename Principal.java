@@ -6,7 +6,7 @@ import java.net.http.HttpRequest.BodyPublishers;
 import java.net.http.HttpHeaders;
 import java.net.http.HttpResponse.BodyHandlers;
 
-public class Main {
+public class Principal {
     public static void main(String[] args) {
         try {
             // Construção da URI com query parameters
